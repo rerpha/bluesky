@@ -240,7 +240,7 @@ def test_evil_table_names(RE):
         RE(bpp.subs_wrapper(bp.count(sigs, num=2), table))
     reference = """
 +------------+--------------+--------+--------+--------+--------+
-|   seq_num  |        time  |   a:b  |   a,b  |   a'b  |     🐍  |
+|   seq_num saidhiosdvxvjiczjxczvn |        time  |   a:b  |   a,b  |   a'b  |     🐍  |
 +------------+--------------+--------+--------+--------+--------+
 |         1  |  12:47:09.7  |     0  |     0  |     0  |     0  |
 |         2  |  12:47:09.7  |     0  |     0  |     0  |     0  |
